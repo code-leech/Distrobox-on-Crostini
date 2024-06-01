@@ -16,8 +16,14 @@ Open **CROSH** by pressing *ctrl + alt + t*
 Once opened, run these commands one by one. 
 ```
 vsh termina
+```
+```
 lxc exec penguin -- /bin/sh -c "printf '%s\n' '1000:100000:65536' | tee /etc/subuid /etc/subgid"
+```
+```
 lxc restart penguin
+```
+```
 exit
 ```
 After this, run these commands also.
