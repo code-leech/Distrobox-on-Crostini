@@ -1,6 +1,7 @@
 # Welcome to a simple tutorial which is (hopefully) useful to you!
 This is a tutorial for Chromebook users to install Distrobox and Podman to try different Distros.
 
+## Install Podman
 
 Firstly, set up linux in **Developer Options** and select **Setup up linux**. 
 Then, open *Penguin* in the terminal options.
@@ -31,7 +32,24 @@ cat /etc/subuid /etc/subgid
 ```
 
 The outputs should read
+
+**1000:100000:65536**
+**1000:100000:65536**
+
+## Install Distrobox
+
+Copy the whole box and run it all:
 ```
-1000:100000:65536
-1000:100000:65536
+mkdir ~/.local/bin
+PATH=$PATH:~/.local/bin
+git clone https://github.com/89luca89/distrobox.git
+cd distrobox
+./install
 ```
+Now close **CROSH**
+
+## Final step...
+
+Just restart *penguin* by right clicking terminal in taskbar and selecting **Shut down linux** then opening terminal again and selecting *penguin*
+
+There we go, Distrobox + Podman has been installed on your computer. Enjoy!
