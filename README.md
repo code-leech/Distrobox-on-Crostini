@@ -41,8 +41,9 @@ cat /etc/subuid /etc/subgid
 
 The outputs should read
 
-**1000:100000:65536**
-**1000:100000:65536**
+*1000:100000:65536*
+
+*1000:100000:65536*
 
 ## Install Distrobox
 
