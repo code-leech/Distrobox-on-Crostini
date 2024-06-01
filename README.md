@@ -11,6 +11,7 @@ sudo apt install uidmap
 ```
 **Now close the terminal.**
 Open **CROSH** by pressing *ctrl + alt + t*
+
 Once opened, run these commands one by one. 
 ```
 vsh termina
