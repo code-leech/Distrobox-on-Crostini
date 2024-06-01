@@ -26,7 +26,9 @@ sudo apt install podman
 podman system migrate
 ```
 Now, check if the assigned GIDs and UIDs are correct.
-`cat /etc/subuid /etc/subgid`
+```
+cat /etc/subuid /etc/subgid
+```
 
 The outputs should read
 ```
