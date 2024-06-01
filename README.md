@@ -29,6 +29,8 @@ exit
 After this, run these commands also.
 ```
 vmc container termina penguin --privileged true
+```
+```
 sudo apt install podman
 podman system migrate
 ```
