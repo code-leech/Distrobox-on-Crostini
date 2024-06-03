@@ -54,4 +54,4 @@ sudo groupadd docker && sudo usermod -aG docker $USER
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 Finally, right click terminal in your taskbar and select power off.
-After this, proceed to [Step 2](https://github.com/upperint/Distrobox_on_Crostini/edit/main/README.md#step-2-install-distrobox)
+After this, proceed to [Step 2](https://github.com/upperint/Distrobox_on_Crostini/tree/main#step-2-install-distrobox)
