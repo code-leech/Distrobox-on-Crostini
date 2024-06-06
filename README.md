@@ -55,3 +55,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 Finally, right click terminal in your taskbar and select power off.
 After this, proceed to [Step 2](https://github.com/upperint/Distrobox_on_Crostini?tab=readme-ov-file#step-2-install-distrobox)
+
+## Setting up Docker's registries in Podman
+
+Use your favourite editor and open /etc/containers/registries.conf
+
+Now change `## unqualified-search-registries = ["example.com]`
+
+to `unqualified-search-registries = ["docker.io"]`
+
+After this, you can now pull Docker images with Podman.
