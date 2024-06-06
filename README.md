@@ -77,5 +77,6 @@ vmc container termina penguin --privileged true
 ```
 sudo apt install qemu-user-static binfmt-support
 ```
+and close crosh.
 
 Finally, right click terminal in your taskbar and select power off.
