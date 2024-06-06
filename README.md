@@ -65,3 +65,17 @@ Now change `## unqualified-search-registries = ["example.com]`
 to `unqualified-search-registries = ["docker.io"]`
 
 After this, you can now pull Docker images with Podman.
+
+## Foreign architecture support (Podman only)
+
+Open crosh again (**ctrl + alt + t**)
+
+Now run
+```
+vmc container termina penguin --privileged true
+```
+```
+sudo apt install qemu-user-static binfmt-support
+```
+
+Finally, right click terminal in your taskbar and select power off.
