@@ -7,6 +7,7 @@ Open terminal (penguin) and run
 sudo apt install uidmap podman -y
 ```
 Now close terminal and execute **ctrl + alt + t**
+[:bruhtest](google.com)
 
 After this run the following commands:
 ```
