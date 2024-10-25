@@ -1,3 +1,6 @@
+<head>
+  <script src='https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js'></script>
+</head>
 # Distrobox on Crostini
 
 ## Step 1: Set up UIDs and GIDs for rootless podman
